@@ -6,7 +6,30 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gallary</title>
+    <a href="{% url 'home' %}">home</a>
+    <a href="{% url 'about' %}">About</a>
+
+
     {% load static %}
+    <style>
+        h1{
+            text-align: center;
+            background-color: black;
+            color: white;
+            line-height: 80px;
+
+        }
+        h1:hover{background-color: #4ac1f7}
+
+
+        img{
+            width: 280px;
+            height: 280px;
+        }
+
+
+
+    </style>
 
 </head>
 <body>

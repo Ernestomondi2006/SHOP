@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+#main{
+    display: flex;
+}
+.mydiv{
+    margin-right: 30px;
+}
+button{
+    background-color: #4ac1f7;
+    height: 50px;
+    width: 100px;
+    border-radius:10px;
+}

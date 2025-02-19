@@ -6,6 +6,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home page</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <link rel="icon" href="{% static 'assets/img_2.png' %}">
     <style>
         h1{text-align: center;
            color: #4ac1f7;
@@ -21,6 +24,9 @@
     </style>
 </head>
 <body>
+<a href="{% url 'gallary' %}">Gallary</a>
+<a href="{% url 'about' %}">About</a>
+
 <marquee behavior="" direction=""><h1>SHOPDISH APP</h1></marquee>
 <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem blanditiis deleniti dignissimos explicabo facilis fugit illo impedit ipsum omnis pariatur praesentium, quaerat quam similique unde veniam. Error minima mollitia totam.</span><span>Ad aliquam assumenda corporis, cumque dignissimos doloremque earum esse fugiat illo, iste iure iusto labore laborum libero maiores necessitatibus neque nihil omnis optio quibusdam recusandae saepe similique velit voluptas voluptatibus.</span></p>
 <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur consequatur debitis dicta distinctio dolor dolore doloremque, et fuga inventore itaque minima modi, natus quas, quo reiciendis sapiente sit tempora ut!</span><span>Accusantium adipisci autem, deleniti eos expedita ipsa ipsum iure laudantium magnam minima modi nesciunt pariatur perspiciatis placeat recusandae repellendus tenetur ut veniam. Aspernatur cum ipsam modi mollitia perspiciatis vero! Minus.</span><span>Animi autem debitis delectus deserunt dolorem, eaque esse ex excepturi fugiat hic incidunt iure labore molestias neque nostrum officia optio quasi qui reprehenderit rerum saepe sint sunt temporibus tenetur vitae?</span></p>
